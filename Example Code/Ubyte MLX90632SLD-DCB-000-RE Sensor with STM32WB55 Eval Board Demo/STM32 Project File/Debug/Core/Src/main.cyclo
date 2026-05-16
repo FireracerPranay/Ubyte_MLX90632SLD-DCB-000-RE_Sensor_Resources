@@ -1,0 +1,14 @@
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	1
+../Core/Src/main.c:66:1:__io_putchar	1
+../Core/Src/main.c:73:9:mlx90632_i2c_read	2
+../Core/Src/main.c:85:9:mlx90632_i2c_write	2
+../Core/Src/main.c:98:6:usleep	1
+../Core/Src/main.c:104:6:msleep	1
+../Core/Src/main.c:110:9:read_eeprom_32	3
+../Core/Src/main.c:123:5:main	10
+../Core/Src/main.c:271:6:SystemClock_Config	3
+../Core/Src/main.c:317:6:PeriphCommonClock_Config	2
+../Core/Src/main.c:341:13:MX_I2C1_Init	4
+../Core/Src/main.c:389:13:MX_USART1_UART_Init	5
+../Core/Src/main.c:437:13:MX_GPIO_Init	1
+../Core/Src/main.c:481:6:Error_Handler	1

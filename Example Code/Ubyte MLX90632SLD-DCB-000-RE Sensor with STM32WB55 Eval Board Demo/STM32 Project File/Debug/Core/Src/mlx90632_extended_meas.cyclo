@@ -1,0 +1,12 @@
+../Core/Src/mlx90632_extended_meas.c:54:16:mlx90632_read_temp_ambient_raw_extended	3
+../Core/Src/mlx90632_extended_meas.c:83:16:mlx90632_read_temp_object_raw_extended	9
+../Core/Src/mlx90632_extended_meas.c:133:9:mlx90632_read_temp_raw_extended_wo_wait	2
+../Core/Src/mlx90632_extended_meas.c:147:9:mlx90632_read_temp_raw_extended	5
+../Core/Src/mlx90632_extended_meas.c:173:9:mlx90632_read_temp_raw_extended_burst	2
+../Core/Src/mlx90632_extended_meas.c:185:8:mlx90632_preprocess_temp_ambient_extended	1
+../Core/Src/mlx90632_extended_meas.c:195:8:mlx90632_preprocess_temp_object_extended	1
+../Core/Src/mlx90632_extended_meas.c:206:8:mlx90632_calc_temp_ambient_extended	1
+../Core/Src/mlx90632_extended_meas.c:243:15:mlx90632_calc_temp_object_iteration_extended	1
+../Core/Src/mlx90632_extended_meas.c:266:8:mlx90632_calc_temp_object_extended	2
+../Core/Src/mlx90632_extended_meas.c:298:9:mlx90632_set_meas_type	7
+../Core/Src/mlx90632_extended_meas.c:340:9:mlx90632_get_meas_type	5
