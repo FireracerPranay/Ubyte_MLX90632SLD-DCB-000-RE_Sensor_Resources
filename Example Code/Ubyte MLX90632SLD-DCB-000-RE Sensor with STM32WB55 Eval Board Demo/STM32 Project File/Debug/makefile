@@ -60,8 +60,8 @@ all: main-build
 main-build: Ubyte_MLX90632UART_Eval_Demo_Example.elf secondary-outputs
 
 # Tool invocations
-Ubyte_MLX90632UART_Eval_Demo_Example.elf Ubyte_MLX90632UART_Eval_Demo_Example.map: $(OBJS) $(USER_OBJS) C:\Users\Pranay\ Sharma\Downloads\MLX90632UART\MLX90632UART\STM32WB55CGUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Ubyte_MLX90632UART_Eval_Demo_Example.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Pranay Sharma\Downloads\MLX90632UART\MLX90632UART\STM32WB55CGUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ubyte_MLX90632UART_Eval_Demo_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Ubyte_MLX90632UART_Eval_Demo_Example.elf Ubyte_MLX90632UART_Eval_Demo_Example.map: $(OBJS) $(USER_OBJS) E:\STM32cubeide\New_Workspace\Ubyte_MLX90632UART_Eval_Demo_Example\STM32WB55CGUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Ubyte_MLX90632UART_Eval_Demo_Example.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\STM32cubeide\New_Workspace\Ubyte_MLX90632UART_Eval_Demo_Example\STM32WB55CGUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ubyte_MLX90632UART_Eval_Demo_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
